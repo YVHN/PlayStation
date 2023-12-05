@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------------------------------------------------------------*/
+body{
+    background: linear-gradient(to right, #757575 0%,#bcbcbc 100%);
+    height: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.main-content{
+    width: 65%;
+    text-align: center;
+}
+
+.game-name{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-content__slides-wrapper{
+    padding: 20px 0px 40px 0px;
+}
+
+.main-content__man-slide{
+    width: 480px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.main-content__current-word{
+    width: 610px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+.main-content__user-letter{
+    margin: 15px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.user-letter__input{
+    width: 60px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.main-content__remaining-attempts{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 8px 0px 0px 0px;
+}
+
+.aside-content__buttons-wrapper{
+    margin-top: 20px;
+}
+
+.aside-content__letters-field{
+    width: 250px;
+    height: 400px;
+    padding: 0px 5px 10px 5px;
+}
+
+.aside-content__button{
+    margin: 10px 30px;
+}
+
+.aside-content__score-field{
+    width: 110px;
+    height: 50px;
+    padding: 8px 8px 5px 8px;
+}

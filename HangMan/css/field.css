@@ -1,0 +1,19 @@
+.field{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    border-radius: 6px;
+    font-weight: 900;
+    font-family:'monospace';
+}
+
+.field-b{
+    font-size: 40px;
+}
+.field-m{
+    font-size: 30px;
+}
+.field-s{
+    font-size: 22px;
+}

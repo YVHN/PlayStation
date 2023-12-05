@@ -1,0 +1,12 @@
+.caption-b{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Calibri';
+    color: rgb(0, 0, 0);
+}
+.caption-m{
+    font-size: 30px;
+    font-weight: 700;
+    font-family:'Lucida Sans Unicode';
+    margin: 14px 0px;
+}

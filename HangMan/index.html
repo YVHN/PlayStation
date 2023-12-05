@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/caption.css">
+    <link rel="stylesheet" href="css/field.css">
+    <link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico">
+    <title>Hang man || YVHN</title>
+</head>
+
+<body>
+    <h1 class="game-name caption-b">Hang Man</h1>
+    <div class="content">
+        <div class="main-content">
+            <div class="main-content__slides-wrapper">
+                <img src="" class="main-content__man-slide" alt="man-status">
+            </div>
+            <div class="main-content__current-word field field-b"></div>
+            <div class="main-content__user-letter">
+                <h4 class="caption-m">Введите букву</h4>
+                <div class="user-letter__wrapper">
+                    <input type="text" class="user-letter__input field field-m" value="">
+                    <button class="user-letter__submit-button button button-m">Ввод</button>
+                </div>
+            </div>
+            <div class="main-content__remaining-attempts field field-s"></div>
+        </div>
+        <div class="aside-content">
+            <h2 class="caption-m">Использованые буквы : </h2>
+            <div class="aside-content__letters-field field field-m"></div>
+            <h2 class="caption-m">Кол-во угаданых слов :</h2>
+            <div class="aside-content__score-field field field-m"></div>
+            <div class="aside-content__buttons-wrapper">
+                <button class="aside-content__button button button-b" id="start-button">Старт</button>
+                <button class="aside-content__button button button-b" id="restart-button">Снова</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/words.js"></script>
+    <script src="js/gameCycle.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

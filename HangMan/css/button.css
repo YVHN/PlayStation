@@ -1,0 +1,28 @@
+.button{
+    font-family: 'Arial Narrow';
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+}
+.button:active{
+    transform: scale(1.10);
+    transition: all 0s ease;
+}
+
+.button-b{
+    width: 100px;
+    height: 50px;
+    font-size: 28px;
+}
+.button-m{
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+}

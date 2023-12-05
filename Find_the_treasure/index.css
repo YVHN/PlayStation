@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.game-wrapper{
+    text-align: center;
+    align-items: center;
+}
+.game-wrapper img{
+    border: 2px black solid;
+}
+.distance{
+    margin: 20px;
+    font-size: 28px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.tries{
+    font-size: 32px;
+}

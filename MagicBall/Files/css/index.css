@@ -1,0 +1,127 @@
+body {
+    background-image: url('../img/magic-wallper.jpg');
+    background-size: cover;
+}
+
+.container {
+    color: white;
+    text-align: center;
+}
+
+.magic-Ball {
+    height: 450px;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+
+.paige_title span {
+    font-size: 46px;
+    color: rgb(29, 226, 226);
+}
+
+.paige_title {
+    text-align: left;
+}
+
+.question-field {
+    width: 480px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 3px black solid;
+    display: block;
+    margin: 40px auto;
+    outline: none;
+}
+
+.answer-button {
+    width: 200px;
+    height: 70px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 70px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-size: 20px;
+}
+
+.answer-button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.answer-button:active {
+    background-color: #3d94cf;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.answer-field {
+    position: relative;
+    bottom: 260px;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 720px) {
+    .magic-Ball {
+        height: 300px;
+        width: 450px;
+    }
+
+    .question-field {
+        width: 380px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .answer-field {
+        bottom: 190px;
+        font-size: 24px;
+    }
+
+    .paige_title {
+        font-size: 20px;
+    }
+
+    .paige_title span {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .magic-Ball {
+        height: 200px;
+        width: 300px;
+    }
+
+    .question-field {
+        width: 340px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .paige_title {
+        font-size: 14px;
+    }
+
+    .paige_title span {
+        font-size: 30px;
+    }
+
+    .answer-field {
+        bottom: 130px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
