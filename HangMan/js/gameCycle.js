@@ -115,6 +115,7 @@ let hangManGame = {
                 this.standartValues.currentSlide++;
                 this.slide.src = this.hangProgressSlides[this.standartValues.currentSlide];
                 this.fields.remainingTriesField.innerHTML = "Осталось " + this.standartValues.remainingTries + " попыток";
+                this.fields.usedLettersField.innerHTML += "\" " + this.fields.userLetter.value + " \", ";
             }
             this.fields.currentWordField.innerHTML = this.answerArray.join(" ");
             this.fields.userLetter.value = "";
