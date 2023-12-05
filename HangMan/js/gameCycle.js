@@ -56,8 +56,7 @@ let hangManGame = {
     //фукнция начала игры
     play: function () {
         //выбор случайного слова
-        // this.standartValues.currentWord = words[Math.floor(Math.random() * words.length)];
-        this.standartValues.currentWord = words[2];
+        this.standartValues.currentWord = words[Math.floor(Math.random() * words.length)];
         //заполнение поля пустышками
         for (let i = 0; i < this.standartValues.currentWord.length; i++) {
             this.answerArray[i] = "_";
